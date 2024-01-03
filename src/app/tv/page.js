@@ -10,7 +10,7 @@ import {bollywood}  from '@/apiURL'
 import Poster from '@/components/Poster'
 import { motion } from 'framer-motion';
 
-const tv = () => {
+const Tv = () => {
 
 
   const [tvmdata,settvMdata] = useState([]);
@@ -91,4 +91,4 @@ const tv = () => {
   )
 }
 
-export default tv
+export default Tv

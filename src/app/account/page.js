@@ -5,7 +5,7 @@ const Account = () => {
     <div>
       <div className='p-5'><img className='h-14 ' src='/images/logo.png'/></div>
       <div className='flex flex-col items-center justify-center h-96 text-center '>
-            <h1 className=' text-3xl font-medium'> Who's  watching ?</h1>
+            <h1 className=' text-3xl font-medium'> Who is  watching ?</h1>
             <div className='flex justify-center items-center gap-5 mt-6 '>
               <div>
                 <img className='w-28  h-28 rounded-md' src='/images/profile1.png'/>

@@ -105,7 +105,7 @@ const Signup = () => {
 <div className='w-[450px] m-auto mt-14 '>
     <h1 className=' text-3xl text-black font-medium mb-6'>Welcome back!
 Joining Netflix is easy.</h1>
-   <p className='text-black'>Enter your password and you'll be watching in no time.</p>
+   <p className='text-black'>Enter your password and you will be watching in no time.</p>
     <div style={{color:'black'}} className=' '>
         <label>{}Email</label>
         <h3 style={{color:'black'}} className='text-black font-semibold mb-4'  >v{e}</h3> 

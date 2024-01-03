@@ -13,10 +13,10 @@ import {getMedias,getTrendingMedias,getTopratedMedias, getPopularMedias, getNowP
 import {bollywood}  from '@/apiURL'
 
 
-const page = () => {
+const Page = () => {
 
 
-  const [mdata,setMdata] =useState([]);
+  const [mdata,setMdata] = useState([]);
   // const [mdata2,setMdata2] =useState([]);
   // const [mdata3,setMdata3] =useState([]);
   // const [mdata4,setMdata4] =useState([]);
@@ -109,8 +109,8 @@ viewport={{ once: true }}
     <Poster medias={mdata} />
     <section className="md:space-y-16 px-3">
       {mdata && mdata.length
-        ? mdata.map((i) => (
-          <Itemrow title={i.title} type={i.type} idata ={i.content} /> 
+        ? mdata.map((i,ind) => (
+          <Itemrow key ={ind+Math.random()} title={i.title} type={i.type} idata ={i.content} /> 
           ))
         : null}
     </section>
@@ -120,4 +120,4 @@ viewport={{ once: true }}
   )
 }
 
-export default page
+export default Page

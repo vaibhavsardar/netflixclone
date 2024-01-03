@@ -11,7 +11,7 @@ import {bollywood}  from '@/apiURL'
 import Poster from '@/components/Poster'
 import { motion } from 'framer-motion';
 
-const page = () => {
+const Page = () => {
 
 
   const [mdata,setMdata] =useState([]);
@@ -114,4 +114,4 @@ viewport={{ once: true }}
   )
 }
 
-export default page
+export default Page

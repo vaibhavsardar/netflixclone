@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux';
 
-const page = () => {
+const Page = () => {
   const [plan,setPlan] = useState('');
   const user = useSelector((state) => {console.log("planform",state.authuser.user); return state.authuser.user})
   const router = useRouter(); 
@@ -52,4 +52,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

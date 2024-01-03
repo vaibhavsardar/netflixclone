@@ -7,7 +7,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion';
 import MediaItem from '@/components/MediaItem';
 
-const page = () => {
+const Page = () => {
     const params = useParams();
     const [mdata,setMdata] =React.useState([]);
 
@@ -73,4 +73,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default Page;

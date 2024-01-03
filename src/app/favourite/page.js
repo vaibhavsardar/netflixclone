@@ -17,7 +17,7 @@ import { setMylist } from '@/redux/features/mylistSlice'
 // import MediaItem from '@/components/MediaItem'
 
 
-const page = () => {
+const Page = () => {
 
 
   const [mdata,setMdata] =useState([]);
@@ -119,4 +119,4 @@ viewport={{ once: true }}
   )
 }
 
-export default page
+export default Page
