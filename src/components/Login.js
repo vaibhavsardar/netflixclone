@@ -67,7 +67,7 @@ const Login = () => {
         </div>
         <div className='my-20 '>
             <p className='text-[#8c8c8c]'>New to Netflix?<a className='text-[#ffffff]'> Sign up now.</a></p>
-            <p className=' text-xs text-[#8c8c8c] mt-5'>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a className='text-[#3942c3]'> Learn more.</a> </p>
+            <p className=' text-xs text-[#8c8c8c] mt-5'>This page is protected by Google reCAPTCHA to ensure you are not a bot.<a className='text-[#3942c3]'> Learn more.</a> </p>
         </div>
         
         

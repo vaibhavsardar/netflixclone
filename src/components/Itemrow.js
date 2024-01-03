@@ -39,11 +39,11 @@ const Itemrow = ({title,type,idata}) => {
         <h2 className="cursor-pointer text-sm font-semibold text-[#e5e5e5] transition-colors duration-200 hover:text-white md:text-2xl">{title}</h2>
         <div className="group relative md:-ml-2">
         <div className='flex items-center gap-3 overflow-x-scroll no-scrollbar space-x-0.5  md:space-x-2.5 md:p-2'>
-        {idata?.map((item)=>{
+        {idata?.map((item,ind)=>{
 
           //  console.log('inside',item);
 
-           return <MediaItem media={item} title={title} type={type} />  
+           return <MediaItem key={ind} media={item} title={title} type={type} />  
 
 }         )}
           

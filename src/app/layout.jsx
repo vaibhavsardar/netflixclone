@@ -47,6 +47,7 @@ export default function RootLayout({children,}) {
   return (
     
     <html lang="en">
+      <meta name='description' content='Description' />
       <Provider store={store}>
          <body className={inter.className}>{children}<Statecom/></body>
       </Provider>

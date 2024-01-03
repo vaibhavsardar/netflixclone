@@ -79,8 +79,8 @@ const Tv = () => {
         />
         <section className="md:space-y-16 px-3">
           {tvmdata && tvmdata.length
-            ? tvmdata.map((i) => (
-              <Itemrow title={i.title} type={i.type} idata ={i.content} /> 
+            ? tvmdata.map((i,ind) => (
+              <Itemrow key={ind}title={i.title} type={i.type} idata ={i.content} /> 
               ))
             : null}
         </section>

@@ -105,9 +105,9 @@ viewport={{ once: true }}
     <div className=" grid grid-cols-8 gap-3 ">
       
      {  
-        mdata?.map((i) => {
+        mdata?.map((i,ind) => {
             // console.log("mdata resp",i);
-            return <div className='h-64 w-32' > <MediaItem media={i}  type={"movie"} /> </div>
+            return <div key={ind} className='h-64 w-32' > <MediaItem  media={i}  type={"movie"} /> </div>
 
         })
       }

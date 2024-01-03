@@ -102,8 +102,8 @@ viewport={{ once: true }}
     />
     <section className="md:space-y-16 px-3">
       {mdata && mdata.length
-        ? mdata.map((i) => (
-          <Itemrow title={i.title} type={i.type} idata ={i.content} /> 
+        ? mdata.map((i,ind) => (
+          <Itemrow key={ind} title={i.title} type={i.type} idata ={i.content} /> 
           ))
         : null}
     </section>
