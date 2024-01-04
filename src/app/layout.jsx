@@ -1,8 +1,8 @@
 import { store } from '@/redux/store'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { Provider,useDispatch, useSelector } from 'react-redux'
-import React, { useEffect, useState } from 'react'
+import { Provider } from 'react-redux'
+import React from 'react'
 import Statecom from '@/components/Statecom'
 
 const inter = Inter({ subsets: ['latin'] })
